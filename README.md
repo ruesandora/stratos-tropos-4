@@ -170,7 +170,7 @@ journalctl -u stratosd -f
 * Eşleşmesi max 30-60 dakika arası sürer.
 
 ```
-status 2>&1 | jq .SyncInfo
+stchaind status 2>&1 | jq .SyncInfo
 ```
 
 ![image](https://user-images.githubusercontent.com/101149671/181054593-3a2eab44-1aa5-4efa-917f-d161e87130c0.png)
